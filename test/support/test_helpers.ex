@@ -67,7 +67,7 @@ defmodule OAuth2.TestHelpers do
   end
 
   defp get_config(key) do
-    Application.get_env(:oauth2, key)
+    Application.get_env(:elixir_oauth2, key)
   end
 
   defp default_client_opts do
